@@ -31,7 +31,7 @@ main()
             break;
     }
 
-    character\character_shadow_co_smg_pilot::main();
+    character\character_delta_tank_crew_a::main();
 }
 
 spawner()
@@ -41,7 +41,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_smg_pilot::precache();
+    character\character_delta_tank_crew_a::precache();
     precacheitem( "mp5" );
     precacheitem( "mp5_reflex" );
     precacheitem( "glock" );

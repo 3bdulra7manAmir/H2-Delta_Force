@@ -29,16 +29,16 @@ main()
             character\character_shadow_co_assault::main();
             break;
         case 1:
-            character\character_shadow_co_lmg::main();
+            character\character_delta_rnd::main();
             break;
         case 2:
-            character\character_shadow_co_smg_pilot::main();
+            character\character_delta_rnd::main();
             break;
         case 3:
-            character\character_shadow_co_smg::main();
+            character\character_delta_rnd::main();
             break;
         case 4:
-            character\character_shadow_co_shotgun::main();
+            character\character_delta_rnd::main();
             break;
     }
 }
@@ -50,11 +50,11 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_assault::precache();
-    character\character_shadow_co_lmg::precache();
-    character\character_shadow_co_shotgun::precache();
-    character\character_shadow_co_smg::precache();
-    character\character_shadow_co_smg_pilot::precache();
+    character\character_delta_rnd::precache();
+    character\character_delta_rnd::precache();
+    character\character_delta_rnd::precache();
+    character\character_delta_rnd::precache();
+    character\character_delta_rnd::precache();
     precacheitem( "rpg" );
     precacheitem( "m4_grunt" );
     precacheitem( "beretta" );

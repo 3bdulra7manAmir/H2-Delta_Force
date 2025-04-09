@@ -34,7 +34,7 @@ main()
             break;
     }
 
-    character\character_shadow_co_lmg::main();
+    character\character_delta_rnd::main();
 }
 
 spawner()
@@ -44,7 +44,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_lmg::precache();
+    character\character_delta_rnd::precache();
     precacheitem( "m240" );
     precacheitem( "m240_acog" );
     precacheitem( "m240_reflex" );

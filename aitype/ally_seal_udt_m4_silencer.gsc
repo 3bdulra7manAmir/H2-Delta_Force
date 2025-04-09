@@ -29,7 +29,7 @@ main()
 	}
 
 	self.weapon = "m4_silencer";
-	character\character_shadow_co_assault::main();
+	character\character_delta_rnd::main();
 }
 
 spawner()
@@ -39,7 +39,7 @@ spawner()
 
 precache()
 {
-	character\character_shadow_co_assault::precache();
+	character\character_delta_rnd::precache();
 	precacheItem("m4_silencer");
 	precacheItem("usp_silencer");
 	precacheItem("fraggrenade");

@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "scar_h_thermal";
-    character\character_shadow_co_lmg::main();
+    character\character_delta_hero_grinch::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_lmg::precache();
+    character\character_delta_hero_grinch::precache();
     precacheitem( "scar_h_thermal" );
     precacheitem( "beretta" );
     precacheitem( "fraggrenade" );

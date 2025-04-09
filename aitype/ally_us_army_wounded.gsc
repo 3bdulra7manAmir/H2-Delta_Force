@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "m4_grunt";
-    character\character_shadow_co_assault::main();
+    character\character_delta_tank_crew_b::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_assault::precache();
+    character\character_delta_tank_crew_b::precache();
     precacheitem( "m4_grunt" );
     precacheitem( "beretta" );
 }

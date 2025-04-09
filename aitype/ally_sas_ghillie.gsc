@@ -22,16 +22,13 @@ main()
     }
 
     self.weapon = "m14_scoped";
-    switch( codescripts\character::get_random_character(3) )
+    switch( codescripts\character::get_random_character(2) )
     {
         case 0:
-            character\character_shadow_co_assault::main();
+            character\character_delta_tank_crew_a::main();
             break;
         case 1:
-            character\character_shadow_co_smg::main();
-            break;
-        case 2:
-            character\character_shadow_co_shotgun::main();
+            character\character_delta_tank_crew_b::main();
             break;
     }
 
@@ -45,9 +42,8 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_assault::precache();
-    character\character_shadow_co_shotgun::precache();
-    character\character_shadow_co_smg::precache();
+    character\character_delta_tank_crew_a::precache();
+    character\character_delta_tank_crew_b::precache();
     precacheitem( "m14_scoped" );
     precacheitem( "usp_silencer" );
     precacheitem( "usp_silencer" );

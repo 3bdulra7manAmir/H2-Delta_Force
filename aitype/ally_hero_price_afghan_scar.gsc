@@ -1,4 +1,4 @@
-// H2 PC GSC
+character_delta_hero_sandman// H2 PC GSC
 // Decompiled by https://github.com/xensik/gsc-tool
 
 main()
@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "cheytac_silencer";
-    character\character_shadow_co_assault::main();
+    character\character_delta_hero_sandman::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_assault::precache();
+    character\character_delta_hero_sandman::precache();
     precacheitem( "cheytac_silencer" );
     precacheitem( "usp_silencer" );
     precacheitem( "usp_silencer" );

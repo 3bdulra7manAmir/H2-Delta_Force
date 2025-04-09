@@ -37,7 +37,7 @@ main()
             break;
     }
 
-    character\character_shadow_co_assault::main();
+    character\character_delta_rnd::main();
 }
 
 spawner()
@@ -47,7 +47,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_assault::precache();
+    character\character_delta_rnd::precache();
     precacheitem( "scar_h_acog" );
     precacheitem( "scar_h_reflex" );
     precacheitem( "scar_h_shotgun" );

@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "m21_scoped_arctic_silenced";
-    character\character_shadow_co_assault::main();
+    character\character_delta_hero_sandman::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_assault::precache();
+    character\character_delta_hero_sandman::precache();
     precacheitem( "m21_scoped_arctic_silenced" );
     precacheitem( "at4" );
     precacheitem( "usp_silencer" );

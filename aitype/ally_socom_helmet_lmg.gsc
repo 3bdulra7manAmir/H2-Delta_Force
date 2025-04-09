@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "mg4";
-    character\character_shadow_co_lmg::main();
+    character\character_delta_rnd::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_lmg::precache();
+    character\character_delta_rnd::precache();
     precacheitem( "mg4" );
     precacheitem( "beretta" );
     precacheitem( "fraggrenade" );

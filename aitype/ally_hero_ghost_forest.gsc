@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "masada_acog";
-    character\character_shadow_co_assault::main();
+    character\character_delta_hero_truck::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_assault::precache();
+    character\character_delta_hero_truck::precache();
     precacheitem( "masada_acog" );
     precacheitem( "beretta" );
     precacheitem( "fraggrenade" );

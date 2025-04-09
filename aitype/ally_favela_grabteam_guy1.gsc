@@ -1,4 +1,4 @@
-// H2 PC GSC
+character_delta_tank_crew_b// H2 PC GSC
 // Decompiled by https://github.com/xensik/gsc-tool
 
 main()
@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "ak47";
-    character\character_shadow_co_smg_pilot::main();
+    character\character_delta_tank_crew_b::main();
 
 }
 
@@ -33,7 +33,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_smg_pilot::precache();
+    character\character_delta_tank_crew_b::precache();
     precacheitem( "ak47" );
     precacheitem( "fraggrenade" );
 }

@@ -30,7 +30,7 @@ main()
 
 	self.weapon = "m4_silencer";
 
-	character\character_shadow_co_assault::main();
+	character\character_delta_tank_crew_a::main();
 }
 
 spawner()
@@ -40,7 +40,7 @@ spawner()
 
 precache()
 {
-	character\character_shadow_co_assault::precache();
+	character\character_delta_tank_crew_a::precache();
 
 	precacheItem("m4_silencer");
 	precacheItem("beretta");
