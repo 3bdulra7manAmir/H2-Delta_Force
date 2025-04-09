@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "m4_grunt";
-    character\character_delta_hero_truck::main();
+    character\character_delta_hero_grinch::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_delta_hero_truck::precache();
+    character\character_delta_hero_grinch::precache();
     precacheitem( "m4_grunt" );
     precacheitem( "glock" );
     precacheitem( "fraggrenade" );

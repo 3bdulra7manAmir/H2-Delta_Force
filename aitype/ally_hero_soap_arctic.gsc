@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "m21_soap";
-    character\character_delta_hero_sandman::main();
+    character\character_delta_hero_truck::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_delta_hero_sandman::precache();
+    character\character_delta_hero_truck::precache();
     precacheitem( "m21_soap" );
     precacheitem( "usp_silencer" );
     precacheitem( "fraggrenade" );

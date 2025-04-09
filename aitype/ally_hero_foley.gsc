@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "scar_h_grenadier";
-    character\character_delta_hero_sandman::main();
+    character\character_delta_hero_grinch::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\character_delta_hero_sandman::precache();
+    character\character_delta_hero_grinch::precache();
     precacheitem( "scar_h_grenadier" );
     precacheitem( "scar_h_m203" );
     precacheitem( "beretta" );
