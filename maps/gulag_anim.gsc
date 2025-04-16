@@ -406,10 +406,12 @@ _id_BFCC()
 _id_D47C()
 {
     level.scr_animtree["player_rappel"] = #animtree;
-    level.scr_model["player_rappel"] = "vb_generic_s1"; //here
+    level.scr_model["player_rappel"] = "viewbody_us_army"; //here
+    //level.scr_model["player_rappel"] = "viewbody_udt"; //here
     level.scr_anim["player_rappel"]["rappel_start"] = %h2_gulag_rappel_player;
     level.scr_animtree["worldbody"] = #animtree;
-    level.scr_model["worldbody"] = "vb_generic_s1"; //here
+    level.scr_model["worldbody"] = "viewbody_us_army"; //here
+    //level.scr_model["worldbody"] = "viewbody_udt"; //here
     level.scr_anim["worldbody"]["slide_in"] = %h2_gulag_sewer_slide_player_in;
     level.scr_anim["worldbody"]["slide_loop"][0] = %h2_gulag_sewer_slide_player_idle;
     level.scr_anim["worldbody"]["slide_out"] = %h2_gulag_sewer_slide_player_out;

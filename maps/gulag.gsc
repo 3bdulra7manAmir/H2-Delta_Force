@@ -99,7 +99,7 @@ main()
     level._id_CA75 = "mil_frame_charge";
     // set up custom vm for breaching
     level.slowmo_viewhands = "viewhands_player_delta"; //here
-    level._id_B8AB = "vb_generic_s1"; //here
+    level._id_B8AB = "viewbody_us_army"; //here
     maps\_slowmo_breach::slowmo_breach_init();
     level._effect["breach_door"] = loadfx( "fx/explosions/breach_wall_concrete" );
     maps\_nightvision::main( level.players );
@@ -195,7 +195,7 @@ main()
     precachemodel( "rat" );
 
     precachemodel( "viewhands_player_delta" );
-    precachemodel( "vb_generic_s1" );
+    precachemodel( "viewbody_us_army" );
     precachemodel( "viewhands_delta" );
 
     thread maps\gulag_code::_id_C122();

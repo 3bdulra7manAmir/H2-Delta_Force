@@ -64,4 +64,8 @@ give_loadout()
     maps\_loadout_code::loadoutequipment( "dcburning", undefined, "claymore" );
     maps\_loadout_code::loadoutequipment( "estate", undefined, "claymore" );
     maps\_loadout_code::default_loadout_if_notset();
+
+    precachemodel( "viewbody_us_army" );
+    precachemodel( "viewhands_player_delta" );
+    precachemodel( "vb_generic_s1" );
 }
