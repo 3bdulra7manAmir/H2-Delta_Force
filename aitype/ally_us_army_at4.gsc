@@ -26,7 +26,7 @@ main()
     switch( codescripts\character::get_random_character(5) )
     {
         case 0:
-            character\character_shadow_co_assault::main();
+            character\character_delta_rnd::main();
             break;
         case 1:
             character\character_delta_rnd::main();
