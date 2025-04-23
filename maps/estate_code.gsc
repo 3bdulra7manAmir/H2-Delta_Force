@@ -391,6 +391,8 @@ _id_BE3A()
         var_0 notify( "trigger" );
 
     level._id_B8D7 allowedstances( "crouch", "prone", "stand" );
+    //level.player GiveWeapon( "colt45" );
+    //level.player GiveMaxAmmo( "colt45" );
 }
 
 _id_AFBE()
